@@ -1,5 +1,14 @@
 # ubuntu
 
+Open a Terminal window and type:
+```bash
+sudo visudo
+```
+
+In the bottom of the file, add the following line:
+```bash
+$USER ALL=(ALL) NOPASSWD: ALL
+```
 
 Install the Gnome desktop on Ubuntu server Edition enter:
 ```bash
