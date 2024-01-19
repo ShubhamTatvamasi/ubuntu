@@ -1,6 +1,6 @@
 # debug
 
-Install `iostat`:
+Install `iostat` and `netstat`:
 ```bash
-sudo apt install sysstat
+sudo apt install sysstat net-tools
 ```
