@@ -19,6 +19,14 @@ sudo apt install ubuntu-desktop
 sudo apt install ubuntu-desktop --install-recommends
 ```
 
+Update apt config to include phased updates:
+```bash
+sudo vim /etc/apt/apt.conf.d/99phased-updates
+```
+```
+APT::Get::Always-Include-Phased-Updates "true";
+```
+
 How to Change Lid Close Behavior in Ubuntu 20.04
 
 https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/
