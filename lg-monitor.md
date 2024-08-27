@@ -18,4 +18,4 @@ sudo /bin/sh -c 'echo i2c-dev >> /etc/modules'
 ```
 A reboot is needed.
 
-https://github.com/daitj/gnome-display-brightness-ddcutil
+[https://github.com/daitj/gnome-display-brightness-ddcutil](https://extensions.gnome.org/extension/2645/brightness-control-using-ddcutil/)
