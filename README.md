@@ -27,6 +27,24 @@ sudo vim /etc/apt/apt.conf.d/99phased-updates
 APT::Get::Always-Include-Phased-Updates "true";
 ```
 
+### Include Flatpak apps
+
+Update `.profile`:
+```bash
+vim ~/.profile
+```
+```
+XDG_DATA_DIRS="/var/lib/flatpak/exports/share:$XDG_DATA_DIRS"
+```
+
+Reboot system:
+```bash
+sudo reboot
+```
+
+---
+
+
 How to Change Lid Close Behavior in Ubuntu 20.04
 
 https://ubuntuhandbook.org/index.php/2020/05/lid-close-behavior-ubuntu-20-04/
